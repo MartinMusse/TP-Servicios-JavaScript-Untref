@@ -1,0 +1,58 @@
+{
+    "Servicios": [
+      {
+        "id": 1,
+        "nombre": "Cristian Romero",
+        "profesion": "Electricista",
+        "telefono": "+54-011 5687 4513",
+        "email": "cutiromero@electricista.com.ar",
+        "foto": "./img/electricista.jpg",
+        "precio": "$2500 mas gastos de materiales."
+      },
+      {
+        "id": 2,
+        "nombre": "Enzo Fernández",
+        "profesion": "Mecánico  ",
+        "telefono": "+54-011-5687-2626",
+        "email": "enzofernandez@mecanico.com",
+        "foto": "./img/mecanico.jpg",
+        "precio": "$4000 mas gastos de materiales."
+      },
+      {
+        "id": 3,
+        "nombre": "Lisandro Martínez",
+        "profesion": "Carpintero",
+        "telefono": "+54-011-9856-4526",
+        "email": "lichamartinez@carpintero.com",
+        "foto": "./img/carpintero.jpg",
+        "precio": "$3000 mas gastos de materiales."
+      },
+      {
+        "id": 4,
+        "nombre": "Emiliano Martínez",
+        "profesion": "Psicólogo",
+        "telefono": "+54-011-4875-5423",
+        "email": "dibumartinez@psicologo.com",
+        "foto": "./img/psicologo.jpg",
+        "precio": "$4500, cancelacion 24 hs de anterioridad, sin cargo."
+      },
+      {
+        "id": 5,
+        "nombre": "Rodrigo De Paul",
+        "profesion": "Plomero",
+        "telefono": "+54-011-4526-1207",
+        "email": "rodgridepaul@tititi.com",
+        "foto": "./img/plomero.jpg",
+        "precio": "$3500 mas gastos de materiales."
+      },
+      {
+        "id": 6,
+        "nombre": "Lionel Messi",
+        "profesion": "Arquitecto",
+        "telefono": "+54-011-1010-1010",
+        "email": "liomessi@thegoat.com",
+        "foto": "./img/arquitecto.jpg",
+        "precio": "a convenir."
+      }
+    ]
+  }

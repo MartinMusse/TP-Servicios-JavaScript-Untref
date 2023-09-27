@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 10px;
+    padding: 0;
+  }
+  
+  /*Encabezado */
+  h1 {
+    background-color: #bab408;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin: 0;
+    font-size: 3rem;
+  }
+  
+  
+  h2 {
+    height: 3rem;
+    margin: 0;
+    padding-top: 10px;
+    color: #bab408;
+    background-color: #333;
+    font-size: 2rem;
+    text-align: center; 
+  }
+  
+  h3{
+    font-size: 2rem;
+    margin-bottom: 0px;
+  }
+
+/* Estilos para el div */
+  
+  .servicios {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  img {
+    width: 20%;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px 3px;
+  }
+  
+/* Estilos para el botón "Velver" */
+.volverBtn {
+    background-color: #bab408;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 20px;
+  }
+  
+  .volverBtn:hover {
+    background-color: #bab408;
+  }
+
+  /* Estilo para footer */
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  
+  button:hover {
+    background-color: #bab408;
+  }
+    
+    /* Estilos para hacer la página responsive */
+  
+    @media screen and (max-width: 768px) {
+      .servicios {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      }
+    
+      h1 {
+        font-size: 2.5rem; 
+      }
+      
+      p {
+        font-size: 1.5rem; 
+        text-align: center;
+      }
+      img{
+        width: 30%;
+        border-radius: 10px;
+      }
+    }
